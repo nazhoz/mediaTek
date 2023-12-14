@@ -1,0 +1,421 @@
+.section-one-main-page{
+  margin-top: 50px;
+  width: 100%;
+  /* margin-left: 35px; */
+}
+.section-one-about-content {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sectionone-HomeAbout{
+  margin-top: -170px;
+}
+
+.section-one-about-img-div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -3;
+}
+
+.section-one-about-img {
+  margin-top: 60px;
+}
+.vedio {
+  position: relative;
+  left: 50px;
+}
+
+.section-one-about-img-vedio {
+  height: 360px;
+  width: 640px;
+}
+
+.section-one-experience {
+  position: relative;
+  bottom: 50px;
+  height: 250px;
+  width: 200px;
+  background-color: rgb(243,67,145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  border-radius: 40px 0px 40px 0px;
+  font-size: 30px;
+  font-weight: 600;
+  /* left: 35px; */
+}
+
+.section-one-years-of-ex {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.section-one-about-company-text {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-one-about-company-sub-text {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.section-one-about-company-text-sub-head {
+  background-color: #fff;
+  height: 25px;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 3px;
+  color: #cccacaae;
+}
+
+.gradient-text {
+  background: linear-gradient(to left, #ff0000, #0000ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-one-about-company-text-head {
+  font-size: 40px;
+  font-weight: 700;
+  /* background-color: yellowgreen; */
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-one-about-company-text-head-mediaspot{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 61px;
+    background: linear-gradient(to right, #FF4E8D,#FF4E8D,#FF4E8D,#F34A9A,#CD3EC6,#B536E0,#8455F0,#686BF6, #567BFB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+@keyframes brushStroke {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes brushStrokeDelay {
+    0%, 100% {
+        width: 0;
+    }
+    50% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.section-one-about-company-text-head-mediaspot::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 6px;
+    background: linear-gradient(to left, #FF4E8D,#FF4E8D,#FF4E8D,#F34A9A,#CD3EC6,#B536E0,#8455F0,#686BF6, #567BFB);
+    animation: brushStroke 8s forwards, brushStrokeDelay 3s infinite;
+    position: relative;
+    top: 4px;
+    border-radius: 5px;
+}
+
+.section-one-about-company-text-data-div {
+  border-left: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-one-about-company-text-data-sub-div {
+  width: 90%;
+}
+.section-one-about-company-text-data {
+  color: rgb(86, 85, 85);
+}
+
+.section-one-about-company-our-mission-vision {
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.section-one-about-company-our-mission {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-one-about-company-our-vision {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-one-about-company-our-mission-headline-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 3px solid rgb(243, 67, 145);
+}
+
+.section-one-about-company-our-vision-headline-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 3px solid rgb(91, 118, 249);
+}
+
+.section-one-about-company-our-mission-headline {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.section-one-about-company-our-mission-data,
+.section-one-about-company-our-vision-data {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.section-one-about-company-our-mission-sub-data,
+.section-one-about-company-our-vision-sub-data {
+  width: 100%;
+  height: 90%;
+  color: rgb(98, 96, 96);
+}
+
+.section-one-clients {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  zoom: 70%;
+}
+
+.section-one-clients-first-row {
+  width: 2500px;
+  height: 250px;
+  display: flex;
+  gap: 63px;
+}
+
+.section-one-number-of-project-div {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-one-marque{
+  z-index: -15;
+}
+
+.section-one-number-of-project-sub-div {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: yellow; */
+  margin-left: 105px;
+
+}
+
+.section-one-Project-Completed-div {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  /* background-color: yellowgreen; */
+}
+
+.section-one-Project-Completed-plus-text {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(243, 67, 145);
+  cursor: pointer;
+}
+
+.section-one-Project-Completed-headline-text {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.section-one-Project-Completed-number-text {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(115, 92, 252);
+}
+
+@media (max-width: 500px) {
+  * {
+    overflow-x: hidden;
+    padding: 0;
+  }
+
+  .section-one-about-content {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .section-one-about-img-div {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    /* background-color: tomato; */
+    margin-top: 30px;
+  }
+
+  .section-one-about-img {
+    width: 100%;
+    height: 290px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-one-vedio {
+    height: 65%;
+    width: 70%;
+  }
+
+  .section-one-about-img-vedio {
+    height: 230px;
+    width: 400px;
+
+  }
+
+  .section-one-experience {
+    width: 110px;
+    height: 150px;
+    margin-right: 290px;
+    margin-top: -70px;
+    font-size: 15px;
+  }
+  .section-one-experience span{
+    margin-left: -10px;
+  }
+
+  .section-one-years-of-ex {
+    font-size: 60px;
+  }
+
+  .section-one-about-company-text {
+    height: 60%;
+    width: 100%;
+  }
+
+  .section-one-about-company-sub-text {
+    font-size: 10px;
+    width: 90%;
+    height: 100%;
+  }
+
+  .section-one-about-company-text-head {
+    font-size: 30px;
+  }
+
+  .section-one-about-company-our-mission-headline {
+    font-size: 20px;
+  }
+
+  .section-one-clients {
+    zoom: 40%;
+  }
+
+  .section-one-number-of-project-div {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-one-number-of-project-sub-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+  }
+
+  .section-one-Project-Completed-div {
+    width: 70%;
+    height: 100%;
+  }
+
+  .section-one-Project-Completed-plus-text {
+    font-size: 35px;
+  }
+
+  .section-one-Project-Completed-headline-text {
+    font-size: 22px;
+  }
+
+  .section-one-Project-Completed-number-text {
+    font-size: 55px;
+  }
+  .section-one-about-company-text-head {
+    font-size: 30px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* overflow-y: hidden; */
+  }
+  .section-one-about-company-text-head-mediaspot{
+    font-size: 30px;
+    height: 100%;
+    /* overflow-y: hidden; */
+}
+}

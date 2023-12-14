@@ -1,0 +1,23 @@
+
+.section4-chat-icons-div{
+    position: fixed;
+    /* margin-left: 1275px; */
+    bottom: 90px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(210, 210, 210);
+}
+.section4-chat-icons-div img{
+    width: 35px;
+    height: 35px;
+}
+.section4-chat-icons-div img:hover{
+    transition: transform 0.4s;
+    transform: scale(1.2);
+}

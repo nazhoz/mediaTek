@@ -1,0 +1,86 @@
+.sec3-pcontent{
+    width: 88%;
+    /* height: 500px; */
+    /* background-color: yellow; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.sec3-image3{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.sec3-image3:hover{
+    transform: scale(1.2);
+    transition: calc(1.5s);
+}
+.sec3-image-conetnt{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+@media(max-width:500px){
+*{
+    overflow-x: hidden;
+} 
+
+.sec3-image3{
+    width: 150px;
+    height: 150px;
+}
+.sec3-image-conetnt:last-child{
+    display: none;
+}
+/* .sec3-fcontent3{
+    width: 150px;
+    height: 150px;
+} */
+.sec3-image-conetnt{
+    width: 150px;
+    height: 150px;
+}
+.sec3-pcontent{
+    margin-top: 30px;
+}
+
+
+}
+
+/* Media query for iPad in portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    *{
+        overflow-x: scroll;
+        /* padding: 0;
+        margin: 0; */
+    }
+    .sec3-pcontent{
+        /* background-color: aqua; */
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 10px; */
+
+    }
+    .sec3-pcontent:last-child{
+        display: none;
+     }
+   
+    .sec3-image3{
+        width: 380px;
+        height: 380px;
+    }
+    .sec3-image-conetnt{
+        width: 380px;
+        height: 380px;
+    }
+  
+  }
+  

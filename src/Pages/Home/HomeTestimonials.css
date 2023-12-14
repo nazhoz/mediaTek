@@ -1,0 +1,187 @@
+.Section2-hometestimonials-heads{
+    z-index: -10;
+}
+.sectionfive-homestestimonials-head-one{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    background: linear-gradient(to right, #FF4E8D,#FF4E8D,#FF4E8D,#F34A9A,#CD3EC6,#B536E0,#8455F0,#686BF6, #567BFB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .sectionfive-hometestimonial-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 170px;
+    width: 400px;
+    background: rgba(204, 204, 204, 0.425);
+  backdrop-filter: blur(10px);
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: rgb(92, 92, 92);
+  }
+  .sectionfive-testimonial-paragraph{
+    margin-left: 40px;
+    /* background-color: yellow; */
+    width: 350px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .sectionfive-testimonial-name{
+    margin-left: 40px;
+    color: #FF4E8D;
+  font-weight: 800;
+  font-size: 18px;
+
+  }
+  .sectionfive-testimonial-name-two{
+    margin-left: 40px;
+    color: #B536E0;
+  font-weight: 800;
+  font-size: 18px;
+  }
+  .sectionfive-testimonial-name-three{
+    margin-left: 40px;
+    color: #567BFB;
+  font-weight: 800;
+  font-size: 18px;
+  }
+  .sectionfive-testimonial-name-four{
+    margin-left: 40px;
+    color: #FF4E8D;
+  font-weight: 800;
+  font-size: 18px;
+  }
+  
+  .Sectionfive-testi-animation{
+    /* background-color: yellow; */
+    width: 80px;
+    height: 80px;
+    margin-left: 280px;
+    margin-top: -70px;
+    z-index: 20;
+  }
+  .sectionfive-hometestimonial-parts{
+    /* background-color: tomato; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 80vh;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 70px;
+  }
+  .sectionfive-hometestimonial-quotes{
+    width: 80px;
+    height: 80px;
+    margin-top: -60px;
+    position: absolute;
+    z-index: 1;
+  }
+  .sectionfive-hometestimonial-content-main{
+    width: 400px;
+    height: 300px;
+    margin-left: 150px;
+
+  }
+  .sectionfive-hometestimonial-content-main1{
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+
+  }
+  .sectionfive-hometestimonial-content-main2{
+    width: 400px;
+    height: 300px;
+  }
+  .sectionfive-hometestimonial-content-main3{
+    width: 400px;
+    height: 300px;
+    margin-left: 0px;
+  }
+  .sectionfive-testi-carousel{
+    display: none;
+  }
+.sectionfive-hometestimonial-partscarousel{
+  display: none;
+}
+
+.Section2-hometestimonials-heads{
+  margin-left: 50px;
+}
+@media(max-width:500px){
+    .sectionfive-hometestimonial-parts{
+        display: none;
+    }
+    .sectionfive-hometestimonial-partscarousel{
+        display: block;
+        height: 210px;
+        background-color: white;
+        color: grey;
+        width: 100%;
+        overflow: hidden;
+        
+      }
+      .sectionfive-slider{
+        /* background-color: yellow; */
+        height: 270px;
+        /* margin-top: 50px; */
+        width: 90%;
+        margin-left: 20px;
+      }
+      .sectionfive-testi-main{
+        /* background-color: violet; */
+        width: 100%;
+        height: 42vh;
+
+      }
+      .Section2-hometestimonials-heads{
+        text-align: center;
+        margin-left: -10px;
+      }
+      .sectionfive-testi-carousel{
+        /* background-color: yellow; */
+        /* height: 150px; */
+        display: block;
+        height: 23vh;
+        margin-top: 30px;
+        text-align: center;
+        /* background: rgba(204, 204, 204, 0.425);
+        backdrop-filter: blur(10px);
+        border-radius: 10px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        color: rgb(92, 92, 92); */
+      }
+.sectionfive-testi-carousel-content{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.sectionfive-testi-carousel-text{
+  /* background-color: #F34A9A; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  overflow: hidden;
+}
+.Sectionfive-carousel-animation{
+  width: 50px;
+  height: 50px;
+}
+.sectionfive-homestestimonials-head-one{
+  font-size: 30px;
+}
+.sectionfive-testi-carousel-name{
+  color: #F34A9A;
+}
+.sectionfive-testi-carousel-name-one{
+  color: #B536E0;
+}
+.sectionfive-testi-carousel-name-two{
+  color: #567BFB;
+}
+}
+

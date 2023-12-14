@@ -1,0 +1,326 @@
+@font-face {
+    font-family: satoshi;
+    src: url("../Portfoliofont/Satoshi-Regular.ttf");
+}
+
+
+
+.sec3-footer{
+    width: 100%;
+    height: 500px;
+    background-color: #EEEEF5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: -999;
+
+}
+.sec3-footer-second{
+    width: 90%;
+    height: 350px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sec3-footer-third{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(207, 204, 204);
+}
+.sec3-fcontent1{
+    /* background-color: rgb(17, 232, 31); */
+    width: 25.6%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.sec3-about{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: satoshi;
+}
+.sec3-fcontent1-paragraph{
+    width: 97%;
+    height: 300px;
+    /* background-color: aqua; */
+    text-align: start;
+    font-size: 16px;
+    font-family: satoshi;
+    color: #95969b;
+    font-weight: 600;
+    display: flex;
+    line-height: 1.9;
+}
+.sec3-fcontent2{
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: blueviolet; */
+    height: 300px;
+
+}
+.sc3-margin{
+    margin-left: 50px;
+}
+.sec3-footer-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: satoshi;
+
+}
+.sec3-footer-text{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: satoshi;
+    color: #95969b;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    position: relative;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+.sec3-footer-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.sec3-footer-text:hover::before {
+    transform: scaleX(1);
+    background-color: #f44f8b;
+}
+
+.sec3-footer-text:hover,
+.sec3-footer-text:focus {
+    color: #f44f8b;
+}
+
+.sec3-top-text{
+    margin-top: 48px;
+}
+.sec3-mail-content{
+    width: 290px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 5px 10px rgba(170, 169, 169, 0.3);
+    border-radius: 30px;
+    overflow-y: hidden;
+
+}
+
+.sec3-fcontent3{
+    width: 320px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: rgb(189, 201, 29); */
+    height: 300px;
+    /* margin-left: 130px; */
+
+}
+.sec3-mail{
+    width: 180px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+.sec3-foot-icon1{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+.sec3-foot-icon2{
+    width: 50px;
+    height: 50px;
+    transform: rotate(-30deg);
+    margin-top: 3px;
+}
+.sec3-social{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sec3-social-icon{
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.sec3-icons-div{
+    display: flex;
+    width: 190px;
+    margin-top: 30px;
+    /* background-color: violet; */
+    justify-content: space-between;
+}
+.sec3-copy{
+    font-family: satoshi;
+    color: #818184;
+    font-weight: 600;
+}
+.sec3-change{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+.sec3-social:hover .sec3-change{
+    display: block;
+}
+.sec3-social:hover .sec3-social-icon{
+    display: none;
+}
+.sec3-social:hover{
+    background-color: #7D2EFF;
+}
+.sce3-nil{
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+
+@media(max-width:500px){
+    *{
+        overflow-x: hidden;
+    } 
+.sec3-footer{
+    margin-top: 550px;
+    height: 980px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.sec3-footer-second{
+    height: 820px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+}
+.sec3-fcontent1{
+    width: 90%;
+    /* background-color: #7D2EFF; */
+    height: 220px;
+}
+.sec3-fcontent1{
+    gap: 0;
+}
+.sec3-about{
+    height: 60px;
+}
+.sec3-fcontent2{
+    width: 160px;
+    /* background-color: yellow; */
+    height: 260px;
+}
+.sc3-margin{
+    margin-left: 0px;
+}
+.sec3-hide-content{
+    display: none;
+}
+.sec3-fcontent3{
+    width: 340px;
+}
+.sec3-mail-content{
+    overflow: hidden;
+}
+
+}
+
+/* Media query for iPad in portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Add your CSS styles for iPad in portrait mode here */
+
+
+    .sec3-hide-content{
+        display: none;
+    }
+    .sec3-footer-second{
+        display: flex;
+        flex-wrap: wrap;
+        height: 800px;
+        /* flex-direction: column; */
+        /* background-color: #7D2EFF; */
+        flex-wrap: wrap;
+    }
+    .sec3-footer{
+        height: 1000px;
+    } 
+    .sec3-fcontent1{
+        width: 500px;
+        /* background-color: yellow; */
+    }
+    .sec3-fcontent2{
+        width: 200px;
+        /* background-color: green; */
+    }
+    .sc3-margin{
+        margin: 0;
+    }
+    .sec3-footer-text{
+        font-size: 24px;
+    }
+    .sec3-fcontent1-paragraph{
+        font-size: 24px;
+    }
+    .sec3-footer-heading,.sec3-about{
+        font-size: 30px;
+        height: 50px;
+    }
+    .sec3-fcontent3{
+        /* background-color: red; */
+        margin-right: 70px;
+        width: 350px;
+    }
+    .sec3-ipad{
+        margin-left: 80px;
+        height: 330px;
+        margin-top: 20px;
+        /* background-color: #7D2EFF   ; */
+    }
+    .sec3-copy{
+        font-size: 24px;
+    }
+    .sec3-mail-content{
+        width: 350px;
+        border-radius: 15px;
+        overflow-y: hidden;
+    }
+    .sec3-foot-icon2{
+        margin-left: 50px;
+    }
+    
+  }
+
+  

@@ -1,0 +1,315 @@
+@font-face {
+    font-family: Satoshi-black;
+    src: url(../../Fonts/Satoshi-Black.otf);
+}
+.Sectionfive-Navbar-Logo{
+    width: 220px;
+    height: 50px;
+}
+.Sectionfive-Navbar-Logo-2{
+    display: none;
+}
+.Sectionfive-Navbar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 4px lightgray;
+    position: fixed;
+    top: 0;
+    z-index: 30;
+}
+.sectionfive-nav-offcanvas{
+    border: none;
+    outline: none;
+    background: none;
+}
+.Sectionfive-navbar-pages{
+    /* background-color: yellow; */
+    width: 45%;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.Sectionfive-Link{
+    text-decoration: none;
+    font-family: Satoshi-black;
+    font-weight: 400;
+    color: #433E5F;
+    font-size: 16px;
+    transition: color 0.2s ease;
+    position: relative;
+}
+
+.Sectionfive-Link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.Sectionfive-Link:hover::before {
+    transform: scaleX(1);
+    background-color: #f44f8b;
+}
+
+.Sectionfive-Link:hover,
+.Sectionfive-Link:focus {
+    color: #f44f8b;
+}
+.sectionfive-nav-off-close{
+    border: none;
+    outline: none;
+    background: none;
+}
+.sectionfive-close-rotate {
+    transition: transform 1.09s ease;
+    width: 25px;
+    height: 25px ;
+}
+
+.sectionfive-close-rotate:hover {
+    transform: rotate(270deg);
+}
+#offcanvasRight{
+    /* background-color: #09052F; */
+    background-color: rgba(9, 5, 47, 0.699);
+    backdrop-filter: blur(10px);
+    /* height: 200vh; */
+}
+.offcanvas{
+    z-index: 9999;
+}
+
+.offcanvas-body{
+    color: white;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* overflow: scroll; */
+    margin-top: -10px;
+}
+.SectionFive-Offcanvas-body-text{
+
+    font-size: 13px;
+}
+.SectionFive-Offcanvas-body-btn{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 150px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.SectionFive-Offcanvas-body-button{
+    /* margin-top: 10px; */
+    outline: none;
+    background: none;
+    border: none;
+    color: #09052F;
+    height: 50px;
+    width: 150px;
+    font-family: Satoshi-black;
+}
+.SectionFive-Offcanvas-body-button:hover{
+    background-color: #f44f8b;
+    color: white;
+}
+.sectionfive-popup{
+    background-color: yellow;
+}
+.SectionFive-Offcanvas-body-mobile{
+    cursor: pointer;
+    /* background-color: rgb(255, 72, 0); */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.SectionFive-Offcanvas-body-mail{
+    cursor: pointer;
+    /* background-color: rgb(255, 72, 0); */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.SectionFive-Offcanvas-body-logo{
+    margin-right: 70px;
+}
+.SectionFive-Offcanvas-body-head{
+    font-family: Satoshi-black;
+    font-size: 17px;
+}
+.SectionFive-Offcanvas-body-contact{
+    /* background-color: yellow; */
+    /* width: 100%; */
+    
+}
+.SectionFive-Offcanvas-body-contacttext{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.SectionFive-Offcanvas-body-contactimage{
+    width: 18px;
+    height: 18px;
+}
+.SectionFive-Offcanvas-body-address{
+    /* background-color: yellow; */
+    width: 100%;
+}
+.SectionFive-Offcanvas-body-number{
+    font-size: 13px;
+}
+.SectionFive-Offcanvas-body-email{
+    font-size: 13px;
+
+}
+.Section-contact-container{
+    width: 100%;
+    height: 230px;
+    /* background-color: yellow; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
+.Section-contact-container-one{
+    width: 35%;
+}
+.Section-contact-container-two{
+    width: 50%;
+}
+.Sectionfive-offcanvas-pages{
+    display: none;
+}
+
+@media(max-width:500px){
+
+    *{
+        overflow-x: hidden;
+    }
+   .Sectionfive-Navbar{
+    width: 100%;
+    /* height: 90px; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+   }
+   .Sectionfive-Navbar-Logo-div{
+    width: 200px;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+   }
+   .Sectionfive-Navbar-Logo{
+   width: 150px;
+   height: 40px;
+   }
+   .Sectionfive-Navbar-Logo-2{
+    display: none;
+    width: 30px;
+    height: 30px;
+   }
+   .Sectionfive-navbar-pages{
+    margin-right: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: cadetblue; */
+   }
+   .Sectionfive-Link{
+    font-size: 11px;
+   }
+   .sectionfive-offcanvas-body-about{
+    display: none;
+   }
+   .SectionFive-Offcanvas-body-btn{
+    display: none;
+   }
+   .Sectionfive-offcanvas-pages{
+    display: block;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-left: 50px; */
+   }
+   .Sectionfive-navbar-pages{
+    display: none;
+   }
+   .SectionFive-Offcanvas-body-contact{
+    display: none;
+   }
+   .Sectionfive-offcanvas-Link{
+    text-decoration: none;
+    font-family: Satoshi-black;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    transition: color 0.2s ease;
+    position: relative;
+   }
+   .Sectionfive-offcanvas-Link:hover{
+    color: #f44f8b;
+   }
+   .sectionfive-off-bar{
+    /* background-color: violet; */
+    width: 12%;
+   }
+   #offcanvasRight{
+    width: 250px;
+   }
+   .sectionfive-off-logo{
+    width: 100px;
+    height: 30px;
+   }
+   .Section-contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+   }
+   .Section-contact-container-one{
+    width: 100%;
+   }
+   .Section-contact-container-two{
+    width: 100%;
+    height: 30vh;
+   }
+   .SectionFive-Offcanvas-body-mail{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    height: 40px;
+   }
+   .SectionFive-Offcanvas-body-mobile{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    height: 40px;
+   }
+  }

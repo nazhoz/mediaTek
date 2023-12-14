@@ -1,0 +1,380 @@
+@font-face{
+    font-family: mulish;
+    src: url(Satoshi-Regular.otf);
+}
+.section4-contact-main{
+    margin-top: 100px;
+}
+.section4-contact-banner{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://www.vandolph.co.za/wp/wp-content/uploads/2018/09/contact-us-background-2.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.section4-banner-text{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.contact-us{
+    font-family:mulish;
+    font-size: 60px;
+    color: white;
+
+}
+.section4-banner-text-span{
+    font-family:mulish;
+    font-size: 15px;
+    color: white;
+}
+.section4-banner-text-span{
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+  }
+  .section4-banner-text-span:before {
+    content: '';
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  .section4-banner-text-span:hover {
+   background-position: 0;
+  }
+  .section4-banner-text-span:hover::before {
+    width:100%;
+  }
+.section4-banner-text-div{
+    width: 350px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.section4-address-div{
+    width: 90%;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mail-address{
+    width: 380px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mail-address:hover{
+    box-shadow: 0 0 5px rgb(230, 229, 229);
+}
+.address-image-div{
+    width: 30%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(95, 95, 143); */
+}
+.address-description{
+    width: 70%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* background-color: brown; */
+}
+.nilambur{
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 50px;
+}
+.calicut{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+.address-description h1{
+    font-family:mulish;
+}
+.address-description span{
+    font-family:mulish;
+    font-size: 15px;
+}
+.address-image-div img{
+    width: 50px;
+    height: 50px;
+}
+.address-description h1{
+    font-size: 18px;
+}
+.section4-map-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+iframe{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border: hidden;
+}
+.section4-form-div{
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(250,250,250);
+    font-family:mulish;
+
+}
+.form-text{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.form-inputs{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.form-inputs input{
+    background-color: white;
+    border: hidden;
+    outline: none;
+    font-family:mulish;
+    width: 480px;
+    text-align: center;
+    height: 60px;
+    font-size: 18px;
+    border: 1px solid rgb(232, 232, 232);
+}
+.form-inputs input:hover{
+    border: 1px solid rgb(151, 151, 151);
+}
+.textarea{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    border: 1px solid rgb(232, 232, 232);
+    outline: none;
+    font-family:mulish;
+    text-align: center;
+    font-size: 18px;
+}
+.textarea:hover{
+    border: 1px solid rgb(151, 151, 151);
+}
+.section4-form-div button{
+    width: 150px;
+    border: hidden;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 500;
+    font-family:mulish;
+}
+.form-div-button button:hover{
+    background-color: rgb(174, 173, 171);
+}
+.form-div-button{
+    width: 90%;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+@media(max-width:500px){
+    *{
+        overflow-x: hidden;
+    }
+    .section4-contact-banner{
+        width: 100%;
+        height: 200px;
+    }
+    .iframe{
+        height: 230px;
+    }
+    .section4-address-div{
+        display: flex;
+        flex-direction: column;
+        height: 380px;
+        
+    }
+    .section4-banner-text h1{
+        font-size: 25px;
+    }
+    .section4-banner-text-span{
+        font-size: 10px;
+    }
+    .section4-banner-text{
+        height: 100px;
+    }
+    .section4-map-container{
+        width: 100%;
+        height: 280px;
+    }
+    .form-inputs{
+        height: 250px;
+    }
+    .form-inputs input{
+        width: 250px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .section4-form-div h1{
+        font-size: 20px;
+    }
+    .section4-form-div span{
+        font-size: 15px;
+    }
+    .textarea{
+        width: 250px;
+        height: 100px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .mail-address{
+        height: 135px;
+    }
+    .address-image-div img{
+        width: 30px;
+        height: 30px;
+    }
+    .address-description span{
+        font-size: 11px;
+    }
+    .address-description{
+        height: 100%;
+    }
+    .section4-chat-icons-div{
+        height: 140px;
+        width: 40px;
+        top: 200px;
+    }
+    .section4-chat-icons-div img{
+        width: 25px;
+        height: 25px;
+    }
+    .form-div-button{
+        width: 75%;
+        height: 60px;
+    }
+    .form-div-button button{
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .section4-form-div{
+        height: 600px;
+    }
+
+
+    
+}
+@media only screen and (min-width: 501px) and (max-width: 1024px) and (orientation: portrait) {
+    *{
+        overflow-x: hidden;
+    }
+    .section4-chat-icons-div{
+        height: 250px;
+        top: 300px;
+        width: 80px;
+    }
+    .section4-chat-icons-div img{
+        width: 40px;
+        height: 40px;
+    }
+    .section4-address-div{
+        width: 100%;
+        height: 300px;
+    }
+    .mail-address{
+        width: 33%;
+        height: 300px;
+    }
+    .section4-map-container{
+        width: 100%;
+        height: 400px;
+    }
+    .address-description{
+        height: 95%;
+        width: 70%;
+    }
+    .nilambur{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .calicut{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .iframe{
+        width: 90%;
+        height: 90%;
+    }
+    .section4-form-div{
+        height: 800px;
+    }
+    .form-inputs{
+        height: 300px;
+    }
+    form{
+        height: 800px;
+    }
+    .textarea{
+        width: 480px;
+    }
+    .form-div-button{
+        width: 65%;
+    }
+  }
+  @media screen and (min-width: 2560px) {
+    *{
+        overflow-x: hidden;
+    }
+  }
+  
+  
